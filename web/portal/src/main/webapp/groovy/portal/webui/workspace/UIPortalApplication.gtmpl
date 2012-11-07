@@ -45,6 +45,7 @@
 		<% } } %>
 		
 		<link rel="shortcut icon" type="image/x-icon" href="<%=docBase%>/favicon.ico" />
+		<link rel="stylesheet" type="text/css" href= "/portal/groovy/portal/webui/workspace/bootstrap.min.css" /> 
 		<%for(skinConfig in portalSkins) {
 		def url = skinConfig.createURL(rcontext.controllerContext);
 		url.setOrientation(orientation);
@@ -57,6 +58,7 @@
 		%>
 			<link id="${portletSkin.id}" rel="stylesheet" type="text/css" href= "$url" />
 		<%}%>
+		<script type="text/javascript" src="/portal/groovy/portal/webui/workspace/bootstrap.min.js"></script>
 		<script type="text/javascript">
 			var require = <%=jsConfig%>;
 		</script>

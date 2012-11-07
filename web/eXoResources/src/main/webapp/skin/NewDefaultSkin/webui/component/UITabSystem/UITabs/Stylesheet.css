@@ -17,9 +17,42 @@
  * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
  */
 
-/* @import url(DefaultSkin/portal/webui/component/UIPortalApplicationSkin.css);
-@import url(DefaultSkin/webui/component/Stylesheet.css);
-@import url(PortletThemes/Stylesheet.css);
-@import url(Portlet/Stylesheet.css);*/
+.UIHorizontalTabs {
+	border: none;
+	border-left: 1px solid #cfcfcf;
+	border-radius: 5px 0 0 0;
+}
 
-@import url(NewDefaultSkin/webui/component/Stylesheet.css);
+.UIHorizontalTabs > li > a {
+	background: #f0f0f0;
+	border: 1px solid #cfcfcf;
+	border-left: none;
+	border-radius: 0;
+	margin-left: 0;
+	margin-right: 0;
+	color: #333;
+}
+
+.UIHorizontalTabs li:last-child a {
+	border-radius: 0 5px 0 0;
+}
+
+.UIHorizontalTabs li:first-child a {
+	border-radius: 5px 0 0 0;
+}
+
+.UIHorizontalTabs > li > a:hover {
+	background: #f8f8f8;
+	border: 1px solid #cfcfcf;
+	border-left: none;
+}
+
+.UIHorizontalTabs > .active > a {
+	background: white;
+	border-left: none;
+	font-weight: bold;
+}
+
+.UIHorizontalTabs > .active > a:hover {
+	border-left: none;
+}
