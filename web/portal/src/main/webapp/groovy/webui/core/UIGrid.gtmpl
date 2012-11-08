@@ -19,7 +19,7 @@
    UIForm uiForm = uicomponent.getAncestorOfType(UIForm.class);
 %>
 <div id="$uicomponent.id">
-   <table class="UIGrid" cellspacing="0">
+   <table class="UIGrid table table-bordered" cellspacing="0">
       <thead>
       <tr>
          <% if (name != null)

@@ -17,7 +17,18 @@
  * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
  */
 
-@import url(UIAction/Stylesheet.css);
-@import url(UIBarStyle/Stylesheet.css);
-@import url(UIBoxDecorator/Stylesheet.css);
-@import url(UIInfoBar/Stylesheet.css);
+.UIGrid {
+	border-radius: 3px 3px 0 0;
+}
+
+.UIGrid th {
+	background: #f0f0f0;
+	box-shadow: 2px 0 2px rgba(13,13,13,0.2);
+}
+
+
+
+
+
+
+
